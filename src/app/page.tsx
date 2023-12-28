@@ -1,4 +1,6 @@
+import React, { useState } from 'react'
 import Image from 'next/image'
+
 
 import Navbar from '../components/landing-navbar'
 import Hero from '../components/hero'
