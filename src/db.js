@@ -24,6 +24,11 @@ client.connect(err => {
 
 app.listen(3001, () => console.log('Listening on port 3001'));
 
+//test if the connection is good at localost:3001
+app.get('/', (req, res) => {
+    res.send('Welcome to the home page');
+});
+
 app.post('/login', async (req, res) => {
     const db = client.db('parking-data');
     const user = await db.collection('credentials').findOne({username: req.body.username});
@@ -33,4 +38,4 @@ app.post('/login', async (req, res) => {
       res.json({status: 'error'});
     }
 });
-  
+
