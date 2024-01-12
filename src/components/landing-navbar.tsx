@@ -76,7 +76,6 @@ const fileDownloadUrl = '/parkingmanagement_setup.exe';
             // onClick={openPopup}
             className='bg-green-500 hover:bg-green-700 text-white font-bold rounded-3xl w-40 h-14 text-2xl'>
             <a href={fileDownloadUrl} >Download</a>
-            
           </button>
         </div>
       </div>
