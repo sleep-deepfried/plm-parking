@@ -15,7 +15,10 @@
     "next": "^14.0.4",
     "passport": "^0.7.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "taos": "^1.0.5",
+    "tw-elements": "^1.1.0",
+    "tw-elements-react": "^1.0.0-alpha2"
   },
   "devDependencies": {
     "@types/node": "^20",

@@ -1,11 +1,19 @@
+/* Importing Work Sans font */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/path-to-your-fonts/work-sans-regular.woff2') format('woff2'); /* Adjust the path accordingly */
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-rgb: 21, 26, 35; /* Updated to #151A23 */
+  --background-end-rgb: 21, 26, 35; /* Updated to #151A23 */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,7 +24,14 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* Applying font and other styles to the body */
 body {
+  font-family: 'Work Sans', sans-serif; /* Applying Work Sans font */
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
