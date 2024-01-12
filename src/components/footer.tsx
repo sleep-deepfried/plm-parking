@@ -12,7 +12,7 @@ export default function Footer(){
             </div>
 
             <div className="text-2xl mt-56">
-            PLM Parking Management System's aim is 
+            PLM Parking Management System&rsquo;s aim is 
             to transform parking management by 
             offering cutting-edge technology and user-
             friendly solutions. We hope to create a 
