@@ -5,7 +5,6 @@ import Image from 'next/image';
 import {featuresId} from '../components/features';
 import {howItWorksId} from '../components/how-it-works';
 import {meetTheTeamId} from  '../components/meet-the-team';
-import { url } from 'inspector';
 
 
 const isBrowser = () => typeof window !== 'undefined'; //The approach recommended by Next.js
