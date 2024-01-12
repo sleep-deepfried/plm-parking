@@ -21,7 +21,7 @@ const Hero = () => {
                     <button className='mt-9 bg-green-500 hover:bg-green-700 font-bold rounded-lg text-2xl h-16 w-44'>
                         <div className="flex flex-row justify-center items-center text-2xl">
                             <a href={fileDownloadUrl}>Try it now!</a>
-                            <Image className='animate-bounce-left-right' src="/images/arrow.png" alt="arrow" width={32} height={32}/>
+                            <Image className='animate-bounce-left-right' src="/images/arrow-icon.png" alt="arrow.png" width={32} height={32}/>
                         </div>
                     </button>
                 </div>
