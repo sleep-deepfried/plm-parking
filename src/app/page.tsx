@@ -24,7 +24,7 @@ export default function Home() {
       <How_it_Works />
       <Features />
       <div className='mt-44'/>
-      <Team />  
+      <Team />
       <div className='mt-40'/>
       <Footer />
     </div>

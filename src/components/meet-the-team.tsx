@@ -64,7 +64,7 @@ const MeetTheTeam = () => {
                 data-te-animation-on-scroll="repeat"
                 data-te-animation-reset="true"
                 data-te-animation="[tada_1s_ease-in-out]">
-                <Image src="/images/Rex.png" alt="hero-image" width={85} height={100}/>
+                <Image src="/images/rex-icon.png" alt="hero-image" width={85} height={100}/>
                     <div className={TeamCardTitle}>
                         Ricardo Nono
                     </div>
